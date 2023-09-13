@@ -12,7 +12,6 @@ import {
   startOfWeek
 } from 'date-fns'
 
-
 export function DatePicker({ value, onChange }) {
   const [isOpen, setIsOpen ] = useState(false)
   const ref = useRef()
@@ -43,6 +42,7 @@ export function DatePicker({ value, onChange }) {
     </div>
   )
 }
+
 
 function DatePickerModal({ value, onChange}) {
   const [visibleMonth, setVisibleMonth] = useState(value || new Date())
