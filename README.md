@@ -1,3 +1,3 @@
 # React + Vite
 
-This is a simple date picker built with React and date-fns.
+This is a simple date picker built with React, vite, and date-fns.
