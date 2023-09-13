@@ -12,6 +12,7 @@ import {
   startOfWeek
 } from 'date-fns'
 
+
 export function DatePicker({ value, onChange }) {
   const [isOpen, setIsOpen ] = useState(false)
   const ref = useRef()
